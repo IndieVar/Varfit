@@ -4,8 +4,8 @@ import {useState} from "react";
 
 export default function HeaderComponent() {
     const navigation = [
-        {name: 'О нас', href: '#'},
-        {name: 'Услуги', href: '#'},
+        {name: 'О нас', href: '/#about'},
+        {name: 'Услуги', href: '/#services'},
         {name: 'Цены', href: '#'},
         {name: 'Отзывы', href: '#'},
         {name: 'Контакты', href: '#'},
