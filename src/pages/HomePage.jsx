@@ -3,6 +3,7 @@ import ServicesComponent from "../components/ServicesComponent.jsx";
 import AboutSection from "../components/AboutSection.jsx";
 import PricesSection from "../components/PricesSection.jsx";
 import ReviewsSection from "../components/ReviewsSection.jsx";
+import ContactsSection from "../components/ContactsSection.jsx";
 
 
 
@@ -14,6 +15,7 @@ export default function HomePage() {
             <ServicesComponent/>
             <PricesSection/>
             <ReviewsSection/>
+            <ContactsSection/>
         </>
     )
 }

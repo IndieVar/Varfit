@@ -8,7 +8,7 @@ export default function HeaderComponent() {
         {name: 'Услуги', href: '/#services'},
         {name: 'Цены', href: '/#prices'},
         {name: 'Отзывы', href: '/#reviews'},
-        {name: 'Контакты', href: '#'},
+        {name: 'Контакты', href: '/#contacts'},
     ]
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
