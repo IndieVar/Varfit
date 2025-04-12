@@ -1,5 +1,6 @@
 import HeaderComponent from "../components/HeaderComponent.jsx";
 import {Outlet} from "react-router";
+import FooterComponent from "../components/FooterComponent.jsx";
 
 export default function Layout() {
 
@@ -7,6 +8,7 @@ export default function Layout() {
         <div className="bg-white">
             <HeaderComponent/>
             <Outlet/>
+            <FooterComponent/>
         </div>
     )
 }
