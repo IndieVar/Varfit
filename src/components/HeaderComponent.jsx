@@ -6,7 +6,7 @@ export default function HeaderComponent() {
     const navigation = [
         {name: 'О нас', href: '/#about'},
         {name: 'Услуги', href: '/#services'},
-        {name: 'Цены', href: '#'},
+        {name: 'Цены', href: '/#prices'},
         {name: 'Отзывы', href: '#'},
         {name: 'Контакты', href: '#'},
     ]

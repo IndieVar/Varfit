@@ -10,7 +10,7 @@ const features = [
         icon: IoIosFitness,
     },
     {
-        name: 'Хатха и виньяса йога',
+        name: 'Хатха йога',
         description:
             'Баланс, гибкость, концентрация.',
         icon: TbYoga,

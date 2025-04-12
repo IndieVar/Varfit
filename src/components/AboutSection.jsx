@@ -5,7 +5,7 @@ export default function AboutSection() {
                 <div className="max-w-4xl">
                     <p id={'about'} className="text-base/7 font-semibold text-indigo-600">О нас</p>
                     <h1 className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">
-                        Элитный подход к телу и духу
+                        Индивидуальный подход к телу и духу
                     </h1>
                     <p className="mt-6 text-balance text-xl/8 text-gray-700">
                         Мы — команда профессионалов в сфере фитнеса, йоги и восстановления.
@@ -19,11 +19,10 @@ export default function AboutSection() {
                         </p>
                         <ul className="mt-8 text-base/7 text-gray-600">
                             В основе нашей работы:
-                            {/*<li>•	Более 10 лет практики</li>*/}
-                            <li>•	Сертифицированные тренеры и массажисты</li>
+                            <li>•	Сертифицированные инструктора и массажист</li>
                             <li>•	Современные методики, проверенные на практике</li>
-                            <li>•	Гармония силы и мягкости</li>
-                            <li>•	Осознанность и внимательная работа с телом</li>
+                            <li>•	Гармония силы и баланса</li>
+                            <li>•	Осознанность и внимательная работа с телом и душой</li>
                         </ul>
                         <p className="mt-8 text-base/7 text-gray-600">
                             Здесь нет шаблонных программ — есть ты, твои цели и наш опыт, который приведёт к реальному результату. Мы не просто тренируем — мы сопровождаем, поддерживаем и вдохновляем.
