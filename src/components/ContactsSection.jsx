@@ -76,8 +76,11 @@ export default function ContactsSection() {
                                     <FiInstagram aria-hidden="true" className="h-7 w-6 text-gray-400" />
                                 </dt>
                                 <dd>
-                                    <a href="mailto:hello@example.com" className="hover:text-gray-900">
-                                        @varlaam.fit | @varlamov_yoga
+                                    <a href="https://www.instagram.com/varlaam.fit/" className="hover:text-gray-900 mr-1" target={'_blank'}>
+                                        @varlaam.fit |
+                                    </a>
+                                    <a href="https://www.instagram.com/varlamov_yoga/" className="hover:text-gray-900" target={'_blank'}>
+                                        @varlamov_yoga
                                     </a>
                                 </dd>
                             </div>

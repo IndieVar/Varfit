@@ -5,16 +5,16 @@ import { Radio, RadioGroup } from '@headlessui/react'
 import { CheckIcon } from '@heroicons/react/20/solid'
 
 const frequencies = [
-    { value: 'monthly', label: 'Разовое', priceSuffix: '/разовое' },
-    { value: 'annually', label: 'Месяц', priceSuffix: '/месяц' },
+    { value: 'monthly', label: 'Месяц', priceSuffix: '/месяц' },
+    { value: 'onetime', label: 'Разовое', priceSuffix: '/разовое' },
 ]
 const tiers = [
     {
         name: 'Йога',
         id: 'tier-freelancer',
         href: '#',
-        price: { monthly: '₪29', annually: '₪299' },
-        description: 'Групповые занятия.',
+        price: { monthly: '₪400', onetime: '₪70' },
+        description: 'Групповые занятия 2 раза в неделю.',
         features: ['Хатха йога', 'Дыхательные практики'],
         mostPopular: false,
     },
@@ -22,34 +22,51 @@ const tiers = [
         name: 'Фитнес',
         id: 'tier-hobby',
         href: '#',
-        price: { monthly: '₪19', annually: '₪199' },
-        description: 'Персональные тренировки с фитнес-тренером.',
+        price: { monthly: '₪1500', onetime: '₪200' },
+        description: 'Персональные тренировки с фитнес-тренером 2 раза в неделю.',
         features: ['Согласованность локации', 'Индивидуальный подход', 'Рекомендации по питанию'],
         mostPopular: false,
+    },
+    {
+        name: 'Йога',
+        id: 'tier-freelancer',
+        href: '#',
+        price: { monthly: '₪1800', onetime: '₪250' },
+        description: 'Персональные занятия с инструктором 2 раза в неделю.',
+        features: ['Хатха йога', 'Дыхательные практики', 'Согласованность локации', 'Индивидуальный подход'],
+        mostPopular: false,
+    },
+    {
+        name: 'Фитнес',
+        id: 'tier-hobby',
+        href: '#',
+        price: { monthly: '₪2100', onetime: '₪200' },
+        description: 'Персональные тренировки с фитнес-тренером 3 раза в неделю.',
+        features: ['Согласованность локации', 'Индивидуальный подход', 'Рекомендации по питанию', 'Возможность перенести тренировку'],
+        mostPopular: true,
     },
     {
         name: 'Массаж',
         id: 'tier-startup',
         href: '#',
-        price: { monthly: '₪59', annually: '₪599' },
-        description: 'Снятие напряжения, восстановление после нагрузок.',
+        price: { monthly: '₪1000', onetime: '₪300' },
+        description: 'Лечебный / спортивный массаж 1 раз в неделю.',
         features: [
-            'Лечебный массаж',
-            'Спортивный массаж',
             'Кабинет / Выезд на дом',
             'Индивидуальный подход',
         ],
-        mostPopular: true,
+        mostPopular: false,
     },
     {
         name: 'Комбо',
         id: 'tier-enterprise',
         href: '#',
-        price: { monthly: '₪99', annually: '₪999' },
+        price: { monthly: '₪?', onetime: '₪?' },
         description: 'Подходит для тех, кто настроен серьёзно.',
         features: [
             'Индивидуальный подход',
             'Настроим под твои задачи',
+            'Согласуем стоимость',
         ],
         mostPopular: false,
     },
@@ -120,7 +137,7 @@ export default function PricesSection() {
                                 <span className="text-sm/6 font-semibold text-gray-600">{frequency.priceSuffix}</span>
                             </p>
                             <a
-                                href={tier.href}
+                                href={'#contacts'}
                                 aria-describedby={tier.id}
                                 className={classNames(
                                     tier.mostPopular
