@@ -22,7 +22,7 @@ export default function HeaderComponent() {
                             <img
                                 alt="Your Company"
                                 src="/logo.png"
-                                className="h-20 w-auto"
+                                className="h-28 w-auto"
                             />
                         </a>
                         <button
@@ -36,7 +36,7 @@ export default function HeaderComponent() {
                         <div className="hidden lg:ml-12 lg:flex lg:gap-x-14">
                             {navigation.map((item) => (
                                 <a key={item.name} href={item.href}
-                                   className="text-sm/6 font-semibold text-gray-900">
+                                   className="text-sm/6 font-semibold text-gray-900 hover:underline">
                                     {item.name}
                                 </a>
                             ))}
@@ -73,20 +73,20 @@ export default function HeaderComponent() {
                                     <a
                                         key={item.name}
                                         href={item.href}
-                                        className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
+                                        className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50 hover:underline"
                                     >
                                         {item.name}
                                     </a>
                                 ))}
                             </div>
-                            <div className="py-6">
-                                <a
-                                    href="#"
-                                    className="-mx-3 block rounded-lg px-3 py-2.5 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
-                                >
-                                    Log in
-                                </a>
-                            </div>
+                            {/*<div className="py-6">*/}
+                            {/*    <a*/}
+                            {/*        href="#"*/}
+                            {/*        className="-mx-3 block rounded-lg px-3 py-2.5 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"*/}
+                            {/*    >*/}
+                            {/*        Log in*/}
+                            {/*    </a>*/}
+                            {/*</div>*/}
                         </div>
                     </div>
                 </DialogPanel>
