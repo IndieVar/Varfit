@@ -76,104 +76,78 @@ export default function ContactsSection() {
                                     <FiInstagram aria-hidden="true" className="h-7 w-6 text-gray-400" />
                                 </dt>
                                 <dd>
-                                    <a href="https://www.instagram.com/varlaam.fit/" className="hover:text-gray-900 mr-1" target={'_blank'}>
-                                        @varlaam.fit |
-                                    </a>
-                                    <a href="https://www.instagram.com/varlamov_yoga/" className="hover:text-gray-900" target={'_blank'}>
-                                        @varlamov_yoga
+                                    <a href="https://www.instagram.com/varlamov_wellness/" className="hover:text-gray-900 mr-1" target={'_blank'}>
+                                        @varlamov_wellness
                                     </a>
                                 </dd>
                             </div>
                         </dl>
-                        <p className="mt-6 text-lg/8 text-gray-600">
-                            Или оставь заявку через форму — мы свяжемся с тобой в ближайшее время.
-                        </p>
                     </div>
                 </div>
-                <form action="#" method="POST" className="px-6 pb-24 pt-20 sm:pb-32 lg:px-8 lg:py-48">
-                    <div className="mx-auto max-w-xl lg:mr-0 lg:max-w-lg">
-                        <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
-                            <div>
-                                <label htmlFor="first-name" className="block text-sm/6 font-semibold text-gray-900">
-                                    Имя
-                                </label>
-                                <div className="mt-2.5">
-                                    <input
-                                        id="first-name"
-                                        name="first-name"
-                                        type="text"
-                                        autoComplete="given-name"
-                                        className="block w-full rounded-md bg-white px-3.5 py-2 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600"
-                                    />
-                                </div>
-                            </div>
-                            <div>
-                                <label htmlFor="last-name" className="block text-sm/6 font-semibold text-gray-900">
-                                    Фамилия
-                                </label>
-                                <div className="mt-2.5">
-                                    <input
-                                        id="last-name"
-                                        name="last-name"
-                                        type="text"
-                                        autoComplete="family-name"
-                                        className="block w-full rounded-md bg-white px-3.5 py-2 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600"
-                                    />
-                                </div>
-                            </div>
-                            <div className="sm:col-span-2">
-                                <label htmlFor="email" className="block text-sm/6 font-semibold text-gray-900">
-                                    Email
-                                </label>
-                                <div className="mt-2.5">
-                                    <input
-                                        id="email"
-                                        name="email"
-                                        type="email"
-                                        autoComplete="email"
-                                        className="block w-full rounded-md bg-white px-3.5 py-2 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600"
-                                    />
-                                </div>
-                            </div>
-                            <div className="sm:col-span-2">
-                                <label htmlFor="phone-number" className="block text-sm/6 font-semibold text-gray-900">
-                                    Номер телефона
-                                </label>
-                                <div className="mt-2.5">
-                                    <input
-                                        id="phone-number"
-                                        name="phone-number"
-                                        type="tel"
-                                        autoComplete="tel"
-                                        className="block w-full rounded-md bg-white px-3.5 py-2 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600"
-                                    />
-                                </div>
-                            </div>
-                            <div className="sm:col-span-2">
-                                <label htmlFor="message" className="block text-sm/6 font-semibold text-gray-900">
-                                    Сообщение
-                                </label>
-                                <div className="mt-2.5">
-                  <textarea
-                      id="message"
-                      name="message"
-                      rows={4}
-                      className="block w-full rounded-md bg-white px-3.5 py-2 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600"
-                      defaultValue={''}
-                  />
-                                </div>
-                            </div>
-                        </div>
-                        <div className="mt-8 flex justify-end">
-                            <button
-                                type="submit"
-                                className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-                            >
-                                Отправить
-                            </button>
-                        </div>
-                    </div>
-                </form>
+                <FAQ/>
+            </div>
+        </div>
+    )
+}
+
+import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/react'
+import { MinusSmallIcon, PlusSmallIcon } from '@heroicons/react/24/outline'
+
+const faqs = [
+    {
+        question: "Сколько раз в неделю нужно заниматься, чтобы был результат?",
+        answer:
+            "Оптимально — от 2 до 4 раз. Всё зависит от цели, уровня подготовки и образа жизни. Главное — регулярность. Даже 2 тренировки в неделю при хорошем подходе дают ощутимый эффект.",
+    },
+    {
+        question: "Можно ли совмещать фитнес и йогу?",
+        answer:
+            "Да, и это отличный тандем! Фитнес укрепляет тело и ускоряет метаболизм, а йога добавляет гибкость, баланс и снижает уровень стресса. Мы часто чередуем эти практики в работе с клиентами.",
+    },
+    {
+        question: "Болит спина. Что лучше — тренировки, йога или массаж?",
+        answer:
+            "Лучше всего — комбинация. Массаж снимает напряжение, йога мягко выравнивает осанку, а тренировки укрепляют мышцы. Мы подбираем подход индивидуально: без боли, только в комфортной зоне.",
+    },
+    {
+        question: "Сколько нужно времени, чтобы увидеть первые результаты?",
+        answer:
+            "Уже через 2–3 недели ты почувствуешь улучшение самочувствия, сна, настроения. Визуальные изменения чаще проявляются через 4–6 недель регулярной работы.",
+    },
+    {
+        question: "Что лучше: индивидуальные занятия или в группе?",
+        answer:
+            "Индивидуальные — это 100% внимания к тебе и твоим целям. В группе — больше энергии, но меньше адаптации. Если важна техника и здоровье — лучше начать индивидуально.",
+    },
+]
+
+function FAQ() {
+    return (
+        <div className="bg-white sm:mt-10">
+            <div className="mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:px-8 lg:py-40">
+                <div className="mx-auto max-w-4xl">
+                    <h2 className="text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">
+                        Часто задаваемые вопросы
+                    </h2>
+                    <dl className="mt-16 divide-y divide-gray-900/10">
+                        {faqs.map((faq) => (
+                            <Disclosure key={faq.question} as="div" className="py-6 first:pt-0 last:pb-0">
+                                <dt>
+                                    <DisclosureButton className="group flex w-full items-start justify-between text-left text-gray-900">
+                                        <span className="text-base/7 font-semibold">{faq.question}</span>
+                                        <span className="ml-6 flex h-7 items-center">
+                      <PlusSmallIcon aria-hidden="true" className="size-6 group-data-[open]:hidden" />
+                      <MinusSmallIcon aria-hidden="true" className="size-6 group-[&:not([data-open])]:hidden" />
+                    </span>
+                                    </DisclosureButton>
+                                </dt>
+                                <DisclosurePanel as="dd" className="mt-2 pr-12">
+                                    <p className="text-base/7 text-gray-600">{faq.answer}</p>
+                                </DisclosurePanel>
+                            </Disclosure>
+                        ))}
+                    </dl>
+                </div>
             </div>
         </div>
     )
