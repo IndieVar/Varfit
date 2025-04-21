@@ -38,7 +38,7 @@ export default function HeroComponent() {
             <div className="bg-gray-50 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
                 <img
                     alt=""
-                    src="/RNI-Films-IMG-1719D888-2242-4EE1-9AB5-62822BEC1232.JPG"
+                    src="/images/RNI-Films-IMG-C1518D08-AC0B-4F37-BE7A-F1E1BEE8D020.jpg"
                     className="aspect-[3/2] object-cover lg:aspect-auto lg:size-full"
                 />
             </div>

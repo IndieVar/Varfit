@@ -11,7 +11,7 @@ const frequencies = [
 const tiers = [
     {
         name: 'Йога',
-        id: 'tier-freelancer',
+        id: 'yoga-group',
         href: '#',
         price: { monthly: '₪400', onetime: '₪70' },
         description: 'Групповые занятия 2 раза в неделю.',
@@ -20,7 +20,7 @@ const tiers = [
     },
     {
         name: 'Фитнес',
-        id: 'tier-hobby',
+        id: 'fitness-one',
         href: '#',
         price: { monthly: '₪1500', onetime: '₪200' },
         description: 'Персональные тренировки с фитнес-тренером 2 раза в неделю.',
@@ -29,7 +29,7 @@ const tiers = [
     },
     {
         name: 'Йога',
-        id: 'tier-freelancer',
+        id: 'yoga-personal',
         href: '#',
         price: { monthly: '₪1800', onetime: '₪250' },
         description: 'Персональные занятия с инструктором 2 раза в неделю.',
@@ -38,7 +38,7 @@ const tiers = [
     },
     {
         name: 'Фитнес',
-        id: 'tier-hobby',
+        id: 'fitness-two',
         href: '#',
         price: { monthly: '₪2100', onetime: '₪200' },
         description: 'Персональные тренировки с фитнес-тренером 3 раза в неделю.',
@@ -47,7 +47,7 @@ const tiers = [
     },
     {
         name: 'Массаж',
-        id: 'tier-startup',
+        id: 'massage',
         href: '#',
         price: { monthly: '₪1000', onetime: '₪300' },
         description: 'Лечебный / спортивный массаж 1 раз в неделю.',
@@ -59,7 +59,7 @@ const tiers = [
     },
     {
         name: 'Комбо',
-        id: 'tier-enterprise',
+        id: 'personal-mix',
         href: '#',
         price: { monthly: '₪?', onetime: '₪?' },
         description: 'Подходит для тех, кто настроен серьёзно.',
