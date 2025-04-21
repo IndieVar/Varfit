@@ -4,16 +4,16 @@ export default function AboutSection() {
             <div className="mx-auto max-w-2xl px-6 lg:max-w-7xl lg:px-8">
                 <div className="max-w-4xl">
                     <p id={'about'} className="text-base/7 font-semibold text-indigo-600">О нас</p>
-                    <h1 className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">
+                    <h2 className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">
                         Индивидуальный подход к телу и духу
-                    </h1>
+                    </h2>
                     <p className="mt-6 text-balance text-xl/8 text-gray-700">
                         Мы — команда профессионалов в сфере фитнеса, йоги и восстановления.
                     </p>
                 </div>
                 <section className="mt-20 grid grid-cols-1 lg:grid-cols-2 lg:gap-x-8 lg:gap-y-16">
                     <div className="lg:pr-8">
-                        <h2 className="text-pretty text-2xl font-semibold tracking-tight text-gray-900">Наша миссия</h2>
+                        <p className="text-pretty text-2xl font-semibold tracking-tight text-gray-900">Наша миссия</p>
                         <p className="mt-6 text-base/7 text-gray-600">
                             Наша миссия — помочь каждому клиенту обрести здоровье, энергию и внутренний баланс через индивидуальный подход и качественные методики.
                         </p>

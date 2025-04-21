@@ -83,10 +83,10 @@ export default function PricesSection() {
         <div className="bg-white py-24 sm:py-32">
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
                 <div className="mx-auto max-w-4xl text-center">
-                    <h2 id={'prices'} className="text-base/7 font-semibold text-indigo-600">Цены</h2>
-                    <p className="mt-2 text-balance text-5xl font-semibold tracking-tight text-gray-900 sm:text-6xl">
+                    <p id={'prices'} className="text-base/7 font-semibold text-indigo-600">Цены</p>
+                    <h4 className="mt-2 text-balance text-5xl font-semibold tracking-tight text-gray-900 sm:text-6xl">
                         Мы предлагаем гибкие условия
-                    </p>
+                    </h4>
                 </div>
                 <p className="mx-auto mt-6 max-w-2xl text-pretty text-center text-lg font-medium text-gray-600 sm:text-xl/8">
                     Пробное занятие — бесплатно <br/>

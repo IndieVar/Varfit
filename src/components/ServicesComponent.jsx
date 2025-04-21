@@ -34,10 +34,10 @@ export default function ServicesComponent() {
         <div className="bg-white py-24 sm:py-32">
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
                 <div className="mx-auto max-w-2xl lg:text-center">
-                    <h2 id={'services'} className="text-base/7 font-semibold text-indigo-600">Услуги</h2>
-                    <p className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl lg:text-balance">
+                    <p id={'services'} className="text-base/7 font-semibold text-indigo-600">Услуги</p>
+                    <h3 className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl lg:text-balance">
                         С каждым движением ближе к себе настоящему
-                    </p>
+                    </h3>
                     <p className="mt-6 text-lg/8 text-gray-600">
                         Выбери свой путь и твое тело скажет тебе спасибо.
                     </p>
