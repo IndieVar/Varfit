@@ -37,7 +37,7 @@ export default function HeroComponent() {
             </div>
             <div className="bg-gray-50 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
                 <img
-                    alt=""
+                    alt="Варламов Йога"
                     src="/images/RNI-Films-IMG-561A297A-A33D-4C2C-A89E-F3E3BC54484C.jpg"
                     className="aspect-[3/2] object-cover lg:aspect-auto lg:size-full"
                 />

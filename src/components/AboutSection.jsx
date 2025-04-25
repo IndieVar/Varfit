@@ -32,28 +32,28 @@ export default function AboutSection() {
                         <div className="-mx-8 grid grid-cols-2 gap-4 sm:-mx-16 sm:grid-cols-4 lg:mx-0 lg:grid-cols-2 lg:gap-4 xl:gap-8">
                             <div className="aspect-square overflow-hidden rounded-xl shadow-xl outline outline-1 -outline-offset-1 outline-black/10">
                                 <img
-                                    alt=""
+                                    alt="Парная йога"
                                     src="/images/RNI-Films-IMG-C1518D08-AC0B-4F37-BE7A-F1E1BEE8D020.jpg"
                                     className="block size-full object-cover"
                                 />
                             </div>
                             <div className="-mt-8 aspect-square overflow-hidden rounded-xl shadow-xl outline outline-1 -outline-offset-1 outline-black/10 lg:-mt-40">
                                 <img
-                                    alt=""
+                                    alt="Парная йога"
                                     src="/images/RNI-Films-IMG-46D7EF17-1047-4D59-B79C-63A24261E6FE.jpg"
                                     className="block size-full object-cover"
                                 />
                             </div>
                             <div className="aspect-square overflow-hidden rounded-xl shadow-xl outline outline-1 -outline-offset-1 outline-black/10">
                                 <img
-                                    alt=""
+                                    alt="Парная йога"
                                     src="/images/RNI-Films-IMG-566B44A5-2FE8-49FE-97B5-100B224D8E25.jpg"
                                     className="block size-full object-cover"
                                 />
                             </div>
                             <div className="-mt-8 aspect-square overflow-hidden rounded-xl shadow-xl outline outline-1 -outline-offset-1 outline-black/10 lg:-mt-40">
                                 <img
-                                    alt=""
+                                    alt="Парная йога"
                                     src="/images/RNI-Films-IMG-5206EEA7-513B-4A94-B46C-EA523A5EF0FE.jpg"
                                     className="block size-full object-cover"
                                 />
