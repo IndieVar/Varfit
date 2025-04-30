@@ -17,10 +17,10 @@ export default function HeaderComponent() {
             <div className="mx-auto max-w-7xl">
                 <div className="px-6 pt-6 lg:max-w-2xl lg:pl-8 lg:pr-0">
                     <nav aria-label="Global" className="flex items-center justify-between lg:justify-start">
-                        <a href="#" className="-m-1.5 p-1.5">
-                            <span className="sr-only">Your Company</span>
+                        <a href="/" className="-m-1.5 p-1.5">
+                            <span className="sr-only">Varlamov Wellness</span>
                             <img
-                                alt="Your Company"
+                                alt="Varlamov Wellness"
                                 src="/logo.png"
                                 className="h-28 w-auto"
                             />
@@ -50,9 +50,9 @@ export default function HeaderComponent() {
                     className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
                     <div className="flex items-center justify-between">
                         <a href="#" className="-m-1.5 p-1.5">
-                            <span className="sr-only">Your Company</span>
+                            <span className="sr-only">Varlamov Wellness</span>
                             <img
-                                alt=""
+                                alt="Varlamov Wellness"
                                 src="/logo.png"
                                 className="h-24 w-auto"
                             />
