@@ -1,4 +1,5 @@
 import { BuildingOffice2Icon, EnvelopeIcon, PhoneIcon } from '@heroicons/react/24/outline'
+import { ImWhatsapp } from "react-icons/im";
 import {FiInstagram} from "react-icons/fi";
 
 export default function ContactsSection() {
@@ -50,23 +51,45 @@ export default function ContactsSection() {
                             </div>
                             <div className="flex gap-x-4">
                                 <dt className="flex-none">
-                                    <span className="sr-only">Telephone</span>
-                                    <PhoneIcon aria-hidden="true" className="h-7 w-6 text-gray-400" />
+                                    <span className="sr-only">WhatsApp</span>
+                                    <ImWhatsapp aria-hidden="true" className="h-7 w-6 text-gray-400" />
                                 </dt>
                                 <dd>
-                                    <a href="tel:+972504569811" className="hover:text-gray-900">
-                                        +972 50 456 98 11
+                                    <a href="https://wa.me/+972504569811" className="hover:text-blue-600">
+                                        WhatsApp: Aleksandr
                                     </a>
                                 </dd>
                             </div>
                             <div className="flex gap-x-4">
                                 <dt className="flex-none">
-                                    <span className="sr-only">Email</span>
-                                    <EnvelopeIcon aria-hidden="true" className="h-7 w-6 text-gray-400" />
+                                    <span className="sr-only">WhatsApp</span>
+                                    <ImWhatsapp aria-hidden="true" className="h-7 w-6 text-gray-400" />
                                 </dt>
                                 <dd>
-                                    <a href="mailto:hello@example.com" className="hover:text-gray-900">
-                                        aleksvarlaam@gmail.com
+                                    <a href="https://wa.me/+972533819872" className="hover:text-blue-600">
+                                        WhatsApp: Natalie
+                                    </a>
+                                </dd>
+                            </div>
+                            {/*<div className="flex gap-x-4">*/}
+                            {/*    <dt className="flex-none">*/}
+                            {/*        <span className="sr-only">Email</span>*/}
+                            {/*        <EnvelopeIcon aria-hidden="true" className="h-7 w-6 text-gray-400" />*/}
+                            {/*    </dt>*/}
+                            {/*    <dd>*/}
+                            {/*        <a href="mailto:hello@example.com" className="hover:text-blue-600">*/}
+                            {/*            aleksvarlaam@gmail.com*/}
+                            {/*        </a>*/}
+                            {/*    </dd>*/}
+                            {/*</div>*/}
+                            <div className="flex gap-x-4">
+                                <dt className="flex-none">
+                                    <span className="sr-only">Email</span>
+                                    <FiInstagram aria-hidden="true" className="h-7 w-6 text-gray-400" />
+                                </dt>
+                                <dd>
+                                    <a href="https://www.instagram.com/varlamov_yoga/" className="hover:text-blue-600 mr-1" target={'_blank'}>
+                                        @varlamov_yoga
                                     </a>
                                 </dd>
                             </div>
@@ -76,8 +99,8 @@ export default function ContactsSection() {
                                     <FiInstagram aria-hidden="true" className="h-7 w-6 text-gray-400" />
                                 </dt>
                                 <dd>
-                                    <a href="https://www.instagram.com/varlamov_wellness/" className="hover:text-gray-900 mr-1" target={'_blank'}>
-                                        @varlamov_wellness
+                                    <a href="https://www.instagram.com/varlaam.fit/" className="hover:text-blue-600 mr-1" target={'_blank'}>
+                                        @varlaam.fit
                                     </a>
                                 </dd>
                             </div>
