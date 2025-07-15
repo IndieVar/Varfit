@@ -1,8 +1,11 @@
 import {Bars3Icon, XMarkIcon} from "@heroicons/react/24/outline/index.js";
 import {Dialog, DialogPanel} from "@headlessui/react";
 import {useState} from "react";
+import BannerComponent from "./home/BannerComponent.jsx";
 
 export default function HeaderComponent() {
+    const [isBanner, setIsBanner] = useState(true);
+
     const navigation = [
         {name: 'О нас', href: '/#about'},
         {name: 'Услуги', href: '/#services'},
@@ -14,6 +17,7 @@ export default function HeaderComponent() {
 
     return (
         <header className="absolute inset-x-0 top-0 z-50">
+            {isBanner && <div className={"hidden sm:block"}><BannerComponent setOpen={setIsBanner}/></div>}
             <div className="mx-auto max-w-7xl">
                 <div className="px-6 pt-6 lg:max-w-2xl lg:pl-8 lg:pr-0">
                     <nav aria-label="Global" className="flex items-center justify-between lg:justify-start">
