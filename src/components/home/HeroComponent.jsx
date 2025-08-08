@@ -21,7 +21,7 @@ export default function HeroComponent() {
                         {isBanner && <div className={"-mt-16 mb-6 sm:hidden block"}><BannerComponent setOpen={setIsBanner}/></div>}
                         <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-xl">
                             <h1 className="text-pretty text-5xl font-semibold tracking-tight text-gray-900 sm:text-7xl">
-                                Фитнес и йога в Ашдоде
+                                Бокс и йога в Ашдоде
                             </h1>
                             <p className="mt-8 text-pretty text-lg font-medium text-gray-500 sm:text-xl/8">
                                 Гармония тела и разума начинается здесь. Индивидуальные тренировки, массаж, дыхательные

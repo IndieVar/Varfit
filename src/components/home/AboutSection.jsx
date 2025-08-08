@@ -3,7 +3,7 @@ const personsArray = [
         name: 'Aleksandr Varlamov',
         imageUrl:
             'https://scontent.ftlv1-1.fna.fbcdn.net/v/t39.30808-6/481974788_1849539142249633_5607739068788510444_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=phlQDEe11Q0Q7kNvwFtnzBB&_nc_oc=Adk_QbFO60tjm01Cx_tQ1-crXz34JAxftYglx31P0sR-WSU7B9rMFOmy30kKfSPGmRTtxy3WqC25tIjM_sE4YCPT&_nc_zt=23&_nc_ht=scontent.ftlv1-1.fna&_nc_gid=FBkyg8lYzFJ7yCdz_hLO1A&oh=00_AfSz7lhwxtO3ZU00lZfa3mZm4paixgCwmQgFhsy7uIOS4A&oe=687C461F',
-        category: ['Фитнес тренер', 'Массажист'],
+        category: ['Тренер по боксу и фитнесу', 'Массажист'],
     },
     {
         name: 'Natalie Varlamov',

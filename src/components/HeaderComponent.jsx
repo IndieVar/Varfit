@@ -25,8 +25,8 @@ export default function HeaderComponent() {
                             <span className="sr-only">Varlamov Wellness</span>
                             <img
                                 alt="Varlamov Wellness"
-                                src="/logo.png"
-                                className="h-28 w-auto"
+                                src="/logotype.png"
+                                className="h-20 md:h-24 w-auto"
                             />
                         </a>
                         <button
@@ -57,8 +57,8 @@ export default function HeaderComponent() {
                             <span className="sr-only">Varlamov Wellness</span>
                             <img
                                 alt="Varlamov Wellness"
-                                src="/logo.png"
-                                className="h-24 w-auto"
+                                src="/logotype.png"
+                                className="h-20 w-auto"
                             />
                         </a>
                         <button

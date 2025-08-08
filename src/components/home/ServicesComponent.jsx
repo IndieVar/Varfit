@@ -1,13 +1,14 @@
 import { IoIosFitness } from "react-icons/io";
 import {TbMassage, TbYoga} from "react-icons/tb";
 import {MdOutlineNoFood} from "react-icons/md";
+import { PiBoxingGlove } from "react-icons/pi";
 
 const features = [
     {
-        name: 'Функциональный фитнес',
+        name: 'Бокс | Тайский бокс ',
         description:
-            'Тренировки для силы, выносливости и коррекции фигуры.',
-        icon: IoIosFitness,
+            'Развитие физических возможностей и боевого характера.',
+        icon: PiBoxingGlove,
     },
     {
         name: 'Хатха йога',
@@ -16,16 +17,16 @@ const features = [
         icon: TbYoga,
     },
     {
+        name: 'Функциональный фитнес',
+        description:
+            'Тренировки для силы, выносливости и коррекции фигуры.',
+        icon: IoIosFitness,
+    },
+    {
         name: 'Лечебный и спортивный массаж',
         description:
             'Снятие боли и напряжения, восстановление после нагрузок.',
         icon: TbMassage,
-    },
-    {
-        name: 'Программы питания',
-        description:
-            'Комплексный подход к телу.',
-        icon: MdOutlineNoFood,
     },
 ]
 
